@@ -22,7 +22,7 @@ public class Lutador {
 		int random = -1;
 		do {
 			Random rand = new Random();
-			random = rand.nextInt(x.length - 1);
+			random = rand.nextInt(x.length);
 			if(this instanceof MeioPesado && x[random] instanceof MeioPesado && this != x[random]) {
 				sameInstance = true;
 			}
