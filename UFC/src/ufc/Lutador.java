@@ -13,6 +13,10 @@ public class Lutador {
 		this.peso = peso;
 	}
 	
+	public String toString(){
+		return nome+"/"+idade+"/"+peso; 	
+	}
+	
 	public String categoriaLutador() {
 		return "Error";
 		
@@ -54,10 +58,6 @@ public class Lutador {
 			}
 		}
 	}
-	public String getLutador() {
-		return nome+"/"+idade+"/"+peso;
-	}
-	
 	public String getNome() {
 		return nome;
 	}
